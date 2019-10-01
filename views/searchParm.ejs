@@ -1,0 +1,3346 @@
+
+<!DOCTYPE html>
+<html lang='ko'>
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TM2PPKW');</script>
+  <!-- End Google Tag Manager -->
+  <title>내 주변 약국찾기 | 병원약국검색어플, 굿닥</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+  <link data-turbolinks-track="" href="/assets/mobile/application-998c9b799036f00fafbb54923676e835.css" media="screen" rel="stylesheet" />
+<link data-turbolinks-track="" href="/assets/mobile/pharmacies-3ab781e8a3265a3835ae198f75a96a6d.css" media="screen" rel="stylesheet" />
+  <script defer="defer" src="/assets/jquery-f3d95d6517774d9e8fa5491fd253f772.js"></script>
+  <script data-turbolinks-track="" defer="defer" src="/assets/mobile/application-65ce0e9b99c64e7ab03a584afbdb9494.js"></script>
+  <script data-turbolinks-track="" defer="defer" src="/assets/mobile/pharmacies-a759fddf9d0c36ebba8120ff3918ed9a.js"></script>
+
+    <!--<script src="http://apis.daum.net/maps/maps3.js?apikey=6f6e7c64943a021323af9b0f3b56c39b57b8e54e"></script> -->
+    <!--<script type="text/javascript" src="http://apis.daum.net/maps/maps3.js?apikey=165eb854718d783c239f9d36275a2c5d4f5a9e97"></script>-->
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="hiCV6D7svYgzW1j0HUlouvLxgx68d9jyqcVu5HQyXPw=" name="csrf-token" />
+
+  <!-- Favicon -->
+  <link href="/assets/essential/favicon/favicon-72458b5b25e614402722983e60749ab7.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+  <!-- App Icon -->
+  <link href="/assets/essential/favicon/apple-icon-57x57-5f8422a82c9ac721ebaafe805a3e8dc8.png" rel="apple-touch-icon" sizes="57x57" type="image/png" />
+  <link href="/assets/essential/favicon/apple-icon-60x60-c3e77d332c0bd7bf3abcc44b6d606d3d.png" rel="apple-touch-icon" sizes="60x60" type="image/png" />
+  <link href="/assets/essential/favicon/apple-icon-72x72-265d6768a3ae98533084d4c5ac4ced7f.png" rel="apple-touch-icon" sizes="72x72" type="image/png" />
+  <link href="/assets/essential/favicon/apple-icon-76x76-2789bbdb7642cc6dfe6f8b27bbcd4eba.png" rel="apple-touch-icon" sizes="76x76" type="image/png" />
+  <link href="/assets/essential/favicon/apple-icon-114x114-967b1f27712535fa4051fde32580958e.png" rel="apple-touch-icon" sizes="114x114" type="image/png" />
+  <link href="/assets/essential/favicon/apple-icon-120x120-21623d29f85b752d14814f456a84db11.png" rel="apple-touch-icon" sizes="120x120" type="image/png" />
+  <link href="/assets/essential/favicon/apple-icon-144x144-7e18bf207aeb10171a574b39bc443c26.png" rel="apple-touch-icon" sizes="144x144" type="image/png" />
+  <link href="/assets/essential/favicon/apple-icon-152x152-704fba0ae498f6cf51346c93a2e3971e.png" rel="apple-touch-icon" sizes="152x152" type="image/png" />
+  <link href="/assets/essential/favicon/apple-icon-180x180-817fdc7e6df13e3ac8a83df0a5f9c848.png" rel="apple-touch-icon" sizes="180x180" type="image/png" />
+  <link href="/assets/essential/favicon/android-icon-36x36-23d56bb3ac7a0c5176ef6e05b4f93842.png" rel="icon" sizes="36x36" type="image/png" />
+  <link href="/assets/essential/favicon/android-icon-48x48-ecb2eff5faef0a16b6c025e3c5cc49d7.png" rel="icon" sizes="48x48" type="image/png" />
+  <link href="/assets/essential/favicon/android-icon-72x72-265d6768a3ae98533084d4c5ac4ced7f.png" rel="icon" sizes="72x72" type="image/png" />
+  <link href="/assets/essential/favicon/android-icon-96x96-e2f50a661ad1ed8861b2b9982b0f7100.png" rel="icon" sizes="96x96" type="image/png" />
+  <link href="/assets/essential/favicon/android-icon-144x144-7e18bf207aeb10171a574b39bc443c26.png" rel="icon" sizes="144x144" type="image/png" />
+  <link href="/assets/essential/favicon/android-icon-192x192-d7ca293e0200d036550bd80854eb9d3a.png" rel="icon" sizes="192x192" type="image/png" />
+  <link href="/assets/essential/favicon/favicon-16x16-5461084425e2a3a279222cbd7137caed.png" rel="icon" sizes="16x16" type="image/png" />
+  <link href="/assets/essential/favicon/favicon-32x32-4aed8235e9c3e727b96aeeee3f6ceb1e.png" rel="icon" sizes="32x32" type="image/png" />
+  <link href="/assets/essential/favicon/favicon-96x96-e2f50a661ad1ed8861b2b9982b0f7100.png" rel="icon" sizes="96x96" type="image/png" />
+  <link rel="manifest" href="/assets/essential/favicon/manifest-475fe72a3516f212b69166a6140e140c.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/essential/favicon/ms-icon-144x144-7e18bf207aeb10171a574b39bc443c26.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Meta Tags -->
+  <meta name="robots" content="ALL" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="내 주변 약국찾기 | 병원약국검색어플, 굿닥" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.goodoc.co.kr/pharmacies" />
+    <meta property="og:image" content="http://www.goodoc.co.kr/essential/goodoc_image.png" />
+  <meta property="og:site_name" content="병원약국 검색어플, 굿닥" />
+  <meta property="og:description" content="내 주변 약국찾기, 연중무휴 약국, 지금 영업중인 약국을 한방에 찾아보세요." />
+  <meta property="og:locale:alternate" content="ko_KR" />
+
+  <meta name="description" content="내 주변 약국찾기, 연중무휴 약국, 지금 영업중인 약국을 한방에 찾아보세요." />
+  <meta name="subject" content="메인 &gt; 내 주변 약국찾기" />
+  <meta name="writer" content="www.goodoc.co.kr" />
+  <meta name="copyright" content="2013 GOODOC" />
+  <meta name="reply-to" content="gdcs@goodoc.co.kr" />
+  <meta name="content-language" content="kr" />
+  <meta name="build" content="2012. 05. 15" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta http-equiv="Cache-Control" content="No-Cache" />
+  <meta http-equiv="Pragma" content="No-Cache" />
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29903049-6', 'goodoc.co.kr');
+    ga('send', 'pageview');
+
+    ga('create', 'UA-53303012-1', 'auto', {'name': 'yelloTracker'});
+    ga('yelloTracker.send', 'pageview');
+
+    ga('create', 'UA-53303012-4', 'auto', {'name': 'goodocTracker'});
+    ga('goodocTracker.send', 'pageview');
+
+    ga('require', 'ec');
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29903049-6"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-29903049-6', { 'optimize_id': 'GTM-P2PF2PH'});
+  </script>
+
+  <!-- Treasure Data -->
+  <script type="text/javascript">
+      !function(t,e){if(void 0===e[t]){e[t]=function(){e[t].clients.push(this),this._init=[Array.prototype.slice.call(arguments)]},e[t].clients=[];for(var r=function(t){return function(){return this["_"+t]=this["_"+t]||[],this["_"+t].push(Array.prototype.slice.call(arguments)),this}},s=["blockEvents","unblockEvents","setSignedMode","setAnonymousMode","resetUUID","addRecord","fetchGlobalID","set","trackEvent","trackPageview","trackClicks","ready"],n=0;n<s.length;n++){var c=s[n];e[t].prototype[c]=r(c)}var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.treasuredata.com/sdk/2.1/td.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)}}("Treasure",this);
+  </script>
+</head>
+<body class="controller_pharmacies action_index ">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM2PPKW"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <!-- GDOC-2808 네이버 연관채널 등록 시작 -->
+  <span itemscope="" itemtype="http://schema.org/Organization">
+    <link itemprop="url" href="https://www.goodoc.co.kr/">
+    <!-- 네이버 블로그 -->
+    <a itemprop="sameAs" href="https://blog.naver.com/goodockorea"></a>
+    <!-- 네이버 포스트 -->
+    <a itemprop="sameAs" href="https://post.naver.com/my.nhn?memberNo=33518467"></a>
+    <!-- 유튜브 -->
+    <a itemprop="sameAs" href="https://www.youtube.com/channel/UCRwQdpT_rMXuM0XTcyqim6Q"></a>
+    <!-- 페이스북 -->
+    <a itemprop="sameAs" href="https://www.facebook.com/goodockr/"></a>
+    <!-- ios 스토어 -->
+    <a itemprop="sameAs" href="https://itunes.apple.com/kr/app/%EA%B5%BF%EB%8B%A5/id517637141?mt=8"></a>
+    <!-- 구글 스토어 -->
+    <a itemprop="sameAs" href="https://play.google.com/store/apps/details?id=com.ksncho.hospitalinfo"></a>
+  </span>
+  <!-- GDOC-2808 네이버 연관채널 등록 종료 -->
+  <div class="page-loading-image"></div>
+  <img alt="Alyac spin" class="page-loading-image" src="/assets/mobile/alyac_spin-251fffeb714ae0c0859a302f641abefc.gif" />
+
+
+
+
+  <div class="top-banner-div none">
+<!--    <a class="top-banner-anchor" href="#">-->
+<!--    </a>-->
+  </div>
+
+  <div id="container">
+      <div id="hospital-head" class="application-head">
+    
+<a class="left-icon go-main ga-send" data-event-action="Button Press" data-event-category="내 주변 약국찾기" data-event-label="홈으로 가기 클릭" href="/">
+  <img alt="Home" height="28" src="/assets/mobile/header/home-c16682172b1793ce44075d25347452d6.png" width="28" />
+</a>
+
+  <div class="text-in-header">내 주변 약국찾기</div>
+
+<a class="right-icon go-hospital-search" href="/hospital_searches"><img alt="Search" height="28" src="/assets/mobile/header/search-7c0fee723fce6cef81e37aa4ce4b2126.png" width="28" /></a>
+
+  </div>
+
+<div class="dumy-layout dumy-remove">
+  <div class="dumy-layout-application-head"></div>
+</div>
+<div class="application-head mobile-inapp nav-down">
+  <div class="mobile-inapp-header">
+    <ul>
+          <li class="">
+              <a href="/hospitals?department_id=7&amp;funnel=mobile_inapp&amp;list_open=1">병원 찾기</a>
+</li>          <li class="">
+              <a href="/event_packages/151?funnel=mobile_inapp">병원 이벤트</a>
+</li>          <li class="">
+              <a href="/health_contents?funnel=mobile_inapp">건강 정보</a>
+</li>    </ul>
+  </div>
+</div>
+
+
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '761441680621495');
+fbq('init', '196259250809426', {
+  em: 'insert_email_variable,'
+});
+fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=761441680621495&ev=PageView&noscript=1"/></noscript>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=196259250809426&ev=PageView&noscript=1" /></noscript>
+
+    <script defer="defer" src="/assets/goodoc_bootstrap/js/jquery.rating-4621ebc11dcc3d6be2e3e1425b3800eb.js"></script>
+<script defer="defer" src="/assets/goodoc_bootstrap/js/jquery.MetaData-cba6de19c78ade8806d881915549d3ab.js"></script>
+<script defer="defer" src="/assets/goodoc_bootstrap/js/jquery.rating.pack-8bd57ca62422e828938e24fc9eb6c8dd.js"></script>
+<script defer="defer" src="/assets/goodoc_bootstrap/js/jquery.form-4ff8d71f7e1727902836fa111d4d3112.js"></script>
+<script defer="defer" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDH52MnKv5Ks23HkBL9syOgXsGYPVPxlLg&amp;callback=loadScript&amp;libraries=geometry"></script>
+<link defer="defer" href="/assets/goodoc_bootstrap/css/jquery.rating-96b1413a20f8d4b4002310e7a5a231db.css" media="screen" rel="stylesheet" />
+
+  <!-- Meta Tags -->
+
+<h1 class="visuallyhidden">굿닥, 약국, 연중무휴 약국, 24시간 약국, 일요일약국, 서울24시간 약국, 부산 24시간 약국, 대구 24시간 약국, 분당 24시간 약국, 대전 24시간 약국, 광주 24시간 약국, 수원 24시간 약국, 전주 24시간 약국, 강남 24시간 약국, 일산 24시간 약국, 안산 24시간 약국, 홍대 24시간 약국, 신촌 24시간 약국, 강남역 24시간 약국, 천안 24시간 약국, 울산 24시간 약국, 청주 24시간 약국, 안양 24시간 약국, 부천 24시간 약국</h1>
+
+<div id="navigator">
+  <div id="area" class="area">
+    <span class="title"> </span>
+    <span class="button">변경</span>
+  </div>
+</div>
+
+<div id="area_floating_container" class="area_floating_container">
+  <div class="area_search">
+    <form accept-charset="UTF-8" action="/streets" data-remote="true" method="get"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+      <div class="area_search_form">
+        <input id="area" name="area" placeholder="예) 신사동 서현동 한신아파트" type="text" />
+        <input type="hidden" name="list_open" value="1"/>
+      </div>
+      <input name="commit" type="submit" value="검색" />
+</form>    <div class="btn_refresh"><img alt="Ic search place" src="/assets/mobile/hospitals/ic_search_place-43b4dde3310c4e15d4dea3aab8828ad4.png" />현재 위치로 설정하기</div>
+  </div>
+  <div id="search_desc" class="search_description">
+    <img alt="Img search notify choi" id="desc_img" src="/assets/mobile/hospitals/img_search_notify_choi-fe068f17c81129ed370e01e99be829ef.png" />
+  </div>
+  <div class="area_list">
+  </div>
+  <div class="loading">
+    <p>지역 정보를 가져오는 중입니다.</p>
+  </div>
+</div>
+
+<script type="text/javascript">
+var ie_check, version, ie9;
+ie_check = navigator.userAgent.toLowerCase().match("msie");
+version = void 0;
+if (ie_check) {
+  version = parseInt(navigator.userAgent.toLowerCase().split("msie")[1].split(";")[0]);
+  if (version == 9) { ie9 = true; }
+}
+if (ie_check == null) {
+  ie_check = navigator.userAgent.toLowerCase().match("trident");
+  version == 11;
+}
+
+var icon_array = []; // icons list
+var marker_array = []; // marker coordinates list
+var multiple_markers = []; // marker list
+var marker_to_distance = [];
+var info_array = [];
+var save_to_separate = [];
+var list_open = 0;
+var iw_width = 0;
+var temp_coordinates = ""; // temporary coordinates
+var temp_searching_point; // temporary searching point
+var my_place;
+var is_small = 0;
+var is_open = 0;
+var win_height;
+  var url_latitude = 37.516034
+  var url_longitude = 127.022124
+
+function initialize() {
+  var userAgent = navigator.userAgent.toLowerCase();
+
+  $("body").on("click", ".marker_list_child", function() {
+    ga("send", "event", "내 주변 약국찾기", "Button Press", "중복 핀 선택에서 병원 선택");
+    var index = $(this).attr('data-marker');
+    scrolling(multiple_markers[index], index);
+    $("#marker_list .marker_list_child").remove();
+    $("#marker_list").css("z-index", "-1");
+    $("#opacity_background").css("z-index", "-1");
+    $("#opacity_background").css("height", "0");
+  });
+
+  $("body").on("click", "#opacity_background", function() {
+    $("#marker_list .marker_list_child").remove();
+    $("#marker_list").css("z-index", "-1");
+    $("#opacity_background").css("z-index", "-1");
+    $("#opacity_background").css("height", "0");
+  });
+
+  function moveSlider(index) {
+    var widthPixel = $("#animation_canvas").outerWidth();
+    var mPixel = index * widthPixel;
+    var willMove = + mPixel;
+    var index = 0;
+
+    $('.slider_panel').animate({left: willMove}, 'slow');
+    $('.control_panel').animate({left: willMove}, 'slow');
+  }
+
+  $('.control_button').each(function(index) {
+    $(this).attr('data-index', index);
+  }).click(function() {
+    index = $(this).attr('data-index');
+    slide_list();
+  });
+
+  function slide_list() {
+    function delay_to_slide() {
+      $("#search_here_panel").css("padding-right", "10px");
+      $("#search_here_text").css("width", "100%");
+    }
+    if(index == 0) {
+      ga("send", "event", "내 주변 약국찾기", "Button Press", "지도 전체보기_리스트뷰");
+      moveSlider(index);
+      $("#animation_canvas").css("pointer-events", "visiblepainted");
+      $("#control_button_on").css("display", "none");
+      $("#control_button_off").css("display", "inline");
+      $("#search_here_text").css("width", "50%");
+      $("#search_here_panel").css("padding-right", "30px");
+    }
+    else if(index == 1) {
+      ga("send", "event", "내 주변 약국찾기", "Button Press", "지도 전체보기_리스트뷰");
+      moveSlider(index);
+      $("#animation_canvas").css("pointer-events", "none");
+      $("#control_button_off").css("display", "none");
+      $("#control_button_on").css("display", "inline");
+      setTimeout(delay_to_slide, 400);
+    }
+  }
+  // moveSlider(1);
+
+  /********** Set 30 markers' option **********/
+  iw_width = 0.4 * $("#container").outerWidth();
+    icon_array.push("/assets/mobile/hospitals/n01-4c2dcd32017bf971e12368a6bbbe4c03.png ");
+    marker_array[0] = new google.maps.LatLng(37.516614, 127.0218397);
+      info_array[0] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/196505"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="196505"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">포인트약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">9.0점</div></div></div><div class="star-right">3명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n02-31a3746639eaa643ce0b66879700e104.png ");
+    marker_array[1] = new google.maps.LatLng(37.5167373, 127.0218982);
+      info_array[1] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/189622"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="189622">신사굿약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n03-db6967e84faa2a7fca3ed698e3a55692.png ");
+    marker_array[2] = new google.maps.LatLng(37.5168385, 127.0222575);
+      info_array[2] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/191216"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="191216"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">오렌지약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">8.0점</div></div></div><div class="star-right">2명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n04-126f8d9531bd7e973719d480b7739aa2.png ");
+    marker_array[3] = new google.maps.LatLng(37.51684560390027, 127.0221343504088);
+      info_array[3] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/203654"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="203654">에메랄드약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n05-6bc708211702753f98f75aa534d013a6.png ");
+    marker_array[4] = new google.maps.LatLng(37.5162899, 127.0210418);
+      info_array[4] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/195734"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="195734"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">코끼리약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">10.0점</div></div></div><div class="star-right">1명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n06-356a9a7442b9f595391bed4fd773d86d.png ");
+    marker_array[5] = new google.maps.LatLng(37.5161902, 127.02065);
+      info_array[5] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/196171"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="196171"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">트리플약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">10.0점</div></div></div><div class="star-right">5명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n07-36ea9fdc11aa77d54e761fca0fdb1e01.png ");
+    marker_array[6] = new google.maps.LatLng(37.5170133, 127.0208658);
+      info_array[6] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/179630"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="179630"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">가나안약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">10.0점</div></div></div><div class="star-right">1명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n08-d186af8499fc0bf3906ae8ff390caa0f.png ");
+    marker_array[7] = new google.maps.LatLng(37.5160891, 127.0203608);
+      info_array[7] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/179811"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="179811"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">강남퍼스트약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">10.0점</div></div></div><div class="star-right">2명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n09-c9a6dcbefbe365cf556f786b6aa87f2f.png ");
+    marker_array[8] = new google.maps.LatLng(37.51696119400697, 127.02069103447019);
+      info_array[8] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/227604"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="227604">에스약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n10-9eaa2f27661dc1cd1c889b03a4f1ade7.png ");
+    marker_array[9] = new google.maps.LatLng(37.5168705, 127.0205268);
+      info_array[9] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/189626"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="189626">신사약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n11-0df4d2c6549e7cdd58685331e8ae5b3b.png ");
+    marker_array[10] = new google.maps.LatLng(37.5151999, 127.0203795);
+      info_array[10] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/185116"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="185116"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">미플러스약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">10.0점</div></div></div><div class="star-right">1명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n12-2d244d9696f4494c6552488a4e2db16d.png ");
+    marker_array[11] = new google.maps.LatLng(37.5154236, 127.0201492);
+      info_array[11] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/189627"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="189627"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">신사온누리약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">10.0점</div></div></div><div class="star-right">1명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n13-15931aac925fa7a4ec82e2c7f7f74eea.png ");
+    marker_array[12] = new google.maps.LatLng(37.5149825, 127.0203393);
+      info_array[12] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/220615"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="220615">신사웰약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n14-4685079bab2c8e5ed822c8c00d63b36d.png ");
+    marker_array[13] = new google.maps.LatLng(37.5168631, 127.0201484);
+      info_array[13] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/223321"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="223321">타워약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n15-bdd6ae7884482e43ff977668f8d29550.png ");
+    marker_array[14] = new google.maps.LatLng(37.5168571, 127.0198352);
+      info_array[14] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/191275"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="191275">오월애약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n16-d60d652a46a3088b957a26d535a5316f.png ");
+    marker_array[15] = new google.maps.LatLng(37.5145482, 127.0204374);
+      info_array[15] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/223328"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="223328">민트약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n17-2831b0201f5632c1d868fb5d01c2fd49.png ");
+    marker_array[16] = new google.maps.LatLng(37.5171451689, 127.019695669);
+      info_array[16] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/219658"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="219658">싱싱온누리약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n18-23dbb0bc460fd8653d3495f5dbf83264.png ");
+    marker_array[17] = new google.maps.LatLng(37.5173114, 127.0196503);
+      info_array[17] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/223500"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="223500">순수약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n19-5903ace44eaa567048cd687a111a4be9.png ");
+    marker_array[18] = new google.maps.LatLng(37.5157545, 127.0191815);
+      info_array[18] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/200426"><div class="bottom-border-div"><div class="bottom-border"></div></div><div class="info-window" style="cursor: pointer;" data-hospital="200426"><div class="hospital-name" style="line-height: 20px; font-size: 13px;">신사행복나눔약국</div><div class="star-rating-iw"><div class="star-left"><div class="after-block"><img src="/assets/mobile/hospitals/star_icon-d0500b9677a3c9bb42cc6fb6dba3f36e.png" class="a-star"><div class="float-right">10.0점</div></div></div><div class="star-right">1명</div></div></div></a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n20-5bb6a046c12b5ce038f04b83b33743a0.png ");
+    marker_array[19] = new google.maps.LatLng(37.5166339, 127.0189804);
+      info_array[19] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/184083"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="184083">메디칼허브약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n21-916ee6d02680c387a71247e80099395d.png ");
+    marker_array[20] = new google.maps.LatLng(37.516807, 127.0188872);
+      info_array[20] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/223748"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="223748">신사스타약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n22-d40d06f563b6a987f14ce118d66c5656.png ");
+    marker_array[21] = new google.maps.LatLng(37.519033, 127.0256588);
+      info_array[21] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/223760"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="223760">바른약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n23-2c632569d0760d5e684f2294c983f4ea.png ");
+    marker_array[22] = new google.maps.LatLng(37.5119367, 127.021411);
+      info_array[22] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/198278"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="198278">현온누리약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n24-3f27be6b44bcda8f7884c2f7349f4f52.png ");
+    marker_array[23] = new google.maps.LatLng(37.5122521, 127.024351);
+      info_array[23] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/194643"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="194643">준약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n25-2dd363e86f435623afd1f658097c612b.png ");
+    marker_array[24] = new google.maps.LatLng(37.5171153, 127.0167696);
+      info_array[24] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/226865"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="226865">씨케이광생약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n26-ccea959276c4f140ccda68662ca03725.png ");
+    marker_array[25] = new google.maps.LatLng(37.5110167, 127.0227);
+      info_array[25] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/191734"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="191734">왕성약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n27-f06cb42c221eb59db5667a6ae47fcfe7.png ");
+    marker_array[26] = new google.maps.LatLng(37.5105385, 127.0211584);
+      info_array[26] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/197578"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="197578">한약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n28-bf439fc8c38eb7ab9afd1a6c0b8f68bf.png ");
+    marker_array[27] = new google.maps.LatLng(37.5178468, 127.0154737);
+      info_array[27] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/184272"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="184272">메디팜은강약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n29-991c0e33fac2a411eb1abfa3378bb358.png ");
+    marker_array[28] = new google.maps.LatLng(37.5178468, 127.0154737);
+      info_array[28] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/182527"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="182527">대영약국</a>', maxWidth: iw_width });
+    icon_array.push("/assets/mobile/hospitals/n30-6ce611f4d7a16943838e950ea4ef7dc3.png ");
+    marker_array[29] = new google.maps.LatLng(37.5107997, 127.0195344);
+      info_array[29] = new google.maps.InfoWindow({ content: '<a class="iw-hospital-anchor display-block" href="/hospitals/185366"><div class="info-window" style="font-weight: bold; line-height: 38px; cursor: pointer;" data-hospital="185366">반포프라자약국</a>', maxWidth: iw_width });
+
+  /********** Set map options (center is setted by URL get parameters **********/
+  map_options = {
+    center: new google.maps.LatLng(37.516034, 127.022124),
+    zoom: 14,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    panControl: false,
+    mapTypeControl: false,
+    zoomControl: true,
+    scaleControl: true
+  };
+
+  /********** Get values of Geocoding reverse **********/
+  var geocoder = new google.maps.Geocoder();
+
+  function code_lat_lng() {
+    var lat = 37.516034
+    var lng = 127.022124
+    var latlng = new google.maps.LatLng(lat, lng);
+    geocoder.geocode({'location': latlng}, function(results, status) {
+      if (status == google.maps.GeocoderStatus.OK) {
+        if (results[1]) {
+          console.log(results[1].formatted_address);
+          addr = results[1].formatted_address;
+          addr_length = addr.split(" ").length;
+          sido = addr.split(" ")[addr_length - 3];
+          gugun = addr.split(" ")[addr_length - 2];
+          myundong = addr.split(" ")[addr_length - 1];
+          $("#navigator #area .title").empty();
+          $("#navigator #area .title").append(gugun + " " + myundong);
+        } else {
+          $("#navigator #area .title").empty();
+          $("#navigator #area .title").append("결과없음");
+          console.log('No results found');
+        }
+      } else {
+        $("#navigator #area .title").empty();
+        $("#navigator #area .title").append("정보없음");
+        console.log('Geocoder failed due to: ' + status);
+      }
+    });
+  }
+
+  /********** Create map in map_canvas **********/
+  var map = new google.maps.Map($("#map_canvas").get(0), map_options);
+
+  /********** Mark current position **********/
+  function current_position() {
+    var lat = 37.516034;
+    var lng = 127.022124;
+    var image = "/assets/mobile/hospitals/marker_red-a8954e91b1cd2f61107937057e5f69d0.png";
+    var current_marker = new google.maps.Marker({
+      position: my_place = new google.maps.LatLng(lat, lng),
+      icon: image,
+      map: map
+    });
+    google.maps.event.addListener(current_marker, 'click', function() {
+      map.setCenter(current_marker.getPosition());
+    });
+  }
+
+  /********** Mark position to search hospitals **********/
+  function current_searching_position() {
+    var image = " ";
+    if(37.516034 == 37.516034) {
+      image = "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png";
+    }
+    else {
+      image = '/assets/mobile/hospitals/marker_green-d8070a65429d1d4007fbcf986217976f.png';
+    }
+    var current_searching_marker = new google.maps.Marker({
+      position: new google.maps.LatLng(37.516034, 127.022124),
+      map: map,
+      icon: image
+    });
+    google.maps.event.addListener(current_searching_marker, 'click', function() {
+      map.setCenter(current_searching_marker.getPosition());
+    });
+  }
+
+  /********** Make map small function **********/
+  function make_map_small() {
+    var temp_width = $('#map_canvas').width() / 2;
+    temp_coordinates = map.getCenter();
+    $('#map_canvas').css("width", temp_width);
+    google.maps.event.trigger(map, 'resize');
+    is_small = 1;
+    $("input[name='list_open']").val("1");
+  }
+
+  /********** Make map small without saving coordinates **********/
+  function marker_click() {
+    moveSlider(0);
+    $("#animation_canvas").css("pointer-events", "visiblepainted");
+    $("#control_button_on").css("display", "none");
+    $("#control_button_off").css("display", "inline");
+    $("#search_here_text").css("width", "50%");
+    $("#search_here_panel").css("padding-right", "30px");
+
+    if(is_small == 0) {
+      ga("send", "event", "내 주변 약국찾기", "Button Press", "맵의 핀 선택_지도뷰");
+      setTimeout(marker_makes_map_small, 600);
+      setTimeout(set_center, 601);
+      if (ie9) { setTimeout($("#animation_canvas").show(), 0); }
+    }
+    else if(is_small == 1) {
+      ga("send", "event", "내 주변 약국찾기", "Button Press", "맵의 핀 선택_리스트뷰");
+      set_center();
+    }
+  }
+
+  /********** Make map small without saving coordinates **********/
+  function marker_makes_map_small() {
+    if(is_small == 0) {
+      var temp_width = $('#map_canvas').width() / 2;
+      $('#map_canvas').css("width", temp_width);
+      google.maps.event.trigger(map, 'resize');
+      is_small = 1;
+      $("input[name='list_open']").val("1");
+    }
+  }
+
+  /********** Make map big function **********/
+  function make_map_big() {
+    var temp_width = $('#map_canvas').width() * 2;
+    temp_coordinates = map.getCenter();
+    $('#map_canvas').css("width", temp_width);
+    google.maps.event.trigger(map, 'resize');
+    is_small = 0;
+    $("input[name='list_open']").val("0");
+  }
+
+  /********** Set Center by temp_coordinates **********/
+  function set_center() {
+    map.setCenter(temp_coordinates);
+  }
+
+  /********** Run 2 functions when click the control button(on) **********/
+  $('#control_button_on').click(function() {
+    setTimeout(make_map_small, 600);
+    setTimeout(set_center, 601);
+    if (ie9) { setTimeout($("#animation_canvas").show(), 0); }
+  });
+
+  /********** Run 2 functions when click the control button(off) **********/
+  $('#control_button_off').click(function() {
+    setTimeout(make_map_big, 1);
+    setTimeout(set_center, 601);
+    if (ie9) { setTimeout($("#animation_canvas").hide(), 602); }
+  });
+
+  /********** Get Center's LatLng and Link with this parameters **********/
+  $('.search_here_text').click(function() {
+    var current_center_lat = map.getCenter().lat();
+    var current_center_lng = map.getCenter().lng();
+    list_open = $("input[name='list_open']").val();
+    if(list_open == 1) {
+      ga("send", "event", "내 주변 약국찾기", "Button Press", "여기서 병원검색_리스트뷰");
+    }
+    else {
+      ga("send", "event", "내 주변 약국찾기", "Button Press", "여기서 병원검색_지도뷰");
+    }
+    location.href = window.location.pathname + "\?latitude=" + current_center_lat + "&longitude=" + current_center_lng  + "&list_open=" + list_open;
+  });
+
+
+  /********** Make searching point and Mark the place **********/
+  function make_searching_point() {
+    temp_coordinates = map.getCenter();
+    temp_searching_point = new google.maps.Marker({
+      position: temp_coordinates,
+      map: map
+    });
+  }
+
+  /********** Create 30 markers **********/
+  function create_markers() {
+    /*
+    for(i = 0; i < marker_array.length; i++) {
+      multiple_markers[i] = new google.maps.Marker({
+        position: marker_array[i],
+        map: map,
+        icon: icon_array[i]
+      });
+      // scrolling(multiple_markers[i], i);
+      calc_distance(multiple_markers[i]);
+      separate_markers(multiple_markers[i], i);
+    }
+    */
+      multiple_markers[0] = new google.maps.Marker({
+        position: marker_array[0],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n01-4c2dcd32017bf971e12368a6bbbe4c03.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[0]);
+      separate_markers(multiple_markers[0], 0);
+      multiple_markers[1] = new google.maps.Marker({
+        position: marker_array[1],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n02-31a3746639eaa643ce0b66879700e104.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[1]);
+      separate_markers(multiple_markers[1], 1);
+      multiple_markers[2] = new google.maps.Marker({
+        position: marker_array[2],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n03-db6967e84faa2a7fca3ed698e3a55692.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[2]);
+      separate_markers(multiple_markers[2], 2);
+      multiple_markers[3] = new google.maps.Marker({
+        position: marker_array[3],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n04-126f8d9531bd7e973719d480b7739aa2.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[3]);
+      separate_markers(multiple_markers[3], 3);
+      multiple_markers[4] = new google.maps.Marker({
+        position: marker_array[4],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n05-6bc708211702753f98f75aa534d013a6.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[4]);
+      separate_markers(multiple_markers[4], 4);
+      multiple_markers[5] = new google.maps.Marker({
+        position: marker_array[5],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n06-356a9a7442b9f595391bed4fd773d86d.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[5]);
+      separate_markers(multiple_markers[5], 5);
+      multiple_markers[6] = new google.maps.Marker({
+        position: marker_array[6],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n07-36ea9fdc11aa77d54e761fca0fdb1e01.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[6]);
+      separate_markers(multiple_markers[6], 6);
+      multiple_markers[7] = new google.maps.Marker({
+        position: marker_array[7],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n08-d186af8499fc0bf3906ae8ff390caa0f.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[7]);
+      separate_markers(multiple_markers[7], 7);
+      multiple_markers[8] = new google.maps.Marker({
+        position: marker_array[8],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n09-c9a6dcbefbe365cf556f786b6aa87f2f.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[8]);
+      separate_markers(multiple_markers[8], 8);
+      multiple_markers[9] = new google.maps.Marker({
+        position: marker_array[9],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n10-9eaa2f27661dc1cd1c889b03a4f1ade7.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[9]);
+      separate_markers(multiple_markers[9], 9);
+      multiple_markers[10] = new google.maps.Marker({
+        position: marker_array[10],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n11-0df4d2c6549e7cdd58685331e8ae5b3b.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[10]);
+      separate_markers(multiple_markers[10], 10);
+      multiple_markers[11] = new google.maps.Marker({
+        position: marker_array[11],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n12-2d244d9696f4494c6552488a4e2db16d.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[11]);
+      separate_markers(multiple_markers[11], 11);
+      multiple_markers[12] = new google.maps.Marker({
+        position: marker_array[12],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n13-15931aac925fa7a4ec82e2c7f7f74eea.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[12]);
+      separate_markers(multiple_markers[12], 12);
+      multiple_markers[13] = new google.maps.Marker({
+        position: marker_array[13],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n14-4685079bab2c8e5ed822c8c00d63b36d.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[13]);
+      separate_markers(multiple_markers[13], 13);
+      multiple_markers[14] = new google.maps.Marker({
+        position: marker_array[14],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n15-bdd6ae7884482e43ff977668f8d29550.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[14]);
+      separate_markers(multiple_markers[14], 14);
+      multiple_markers[15] = new google.maps.Marker({
+        position: marker_array[15],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n16-d60d652a46a3088b957a26d535a5316f.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[15]);
+      separate_markers(multiple_markers[15], 15);
+      multiple_markers[16] = new google.maps.Marker({
+        position: marker_array[16],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n17-2831b0201f5632c1d868fb5d01c2fd49.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[16]);
+      separate_markers(multiple_markers[16], 16);
+      multiple_markers[17] = new google.maps.Marker({
+        position: marker_array[17],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n18-23dbb0bc460fd8653d3495f5dbf83264.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[17]);
+      separate_markers(multiple_markers[17], 17);
+      multiple_markers[18] = new google.maps.Marker({
+        position: marker_array[18],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n19-5903ace44eaa567048cd687a111a4be9.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[18]);
+      separate_markers(multiple_markers[18], 18);
+      multiple_markers[19] = new google.maps.Marker({
+        position: marker_array[19],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n20-5bb6a046c12b5ce038f04b83b33743a0.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[19]);
+      separate_markers(multiple_markers[19], 19);
+      multiple_markers[20] = new google.maps.Marker({
+        position: marker_array[20],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n21-916ee6d02680c387a71247e80099395d.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[20]);
+      separate_markers(multiple_markers[20], 20);
+      multiple_markers[21] = new google.maps.Marker({
+        position: marker_array[21],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n22-d40d06f563b6a987f14ce118d66c5656.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[21]);
+      separate_markers(multiple_markers[21], 21);
+      multiple_markers[22] = new google.maps.Marker({
+        position: marker_array[22],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n23-2c632569d0760d5e684f2294c983f4ea.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[22]);
+      separate_markers(multiple_markers[22], 22);
+      multiple_markers[23] = new google.maps.Marker({
+        position: marker_array[23],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n24-3f27be6b44bcda8f7884c2f7349f4f52.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[23]);
+      separate_markers(multiple_markers[23], 23);
+      multiple_markers[24] = new google.maps.Marker({
+        position: marker_array[24],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n25-2dd363e86f435623afd1f658097c612b.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[24]);
+      separate_markers(multiple_markers[24], 24);
+      multiple_markers[25] = new google.maps.Marker({
+        position: marker_array[25],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n26-ccea959276c4f140ccda68662ca03725.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[25]);
+      separate_markers(multiple_markers[25], 25);
+      multiple_markers[26] = new google.maps.Marker({
+        position: marker_array[26],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n27-f06cb42c221eb59db5667a6ae47fcfe7.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[26]);
+      separate_markers(multiple_markers[26], 26);
+      multiple_markers[27] = new google.maps.Marker({
+        position: marker_array[27],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n28-bf439fc8c38eb7ab9afd1a6c0b8f68bf.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[27]);
+      separate_markers(multiple_markers[27], 27);
+      multiple_markers[28] = new google.maps.Marker({
+        position: marker_array[28],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n29-991c0e33fac2a411eb1abfa3378bb358.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[28]);
+      separate_markers(multiple_markers[28], 28);
+      multiple_markers[29] = new google.maps.Marker({
+        position: marker_array[29],
+        map: map,
+        icon: new google.maps.MarkerImage(
+            '/assets/mobile/hospitals/n30-6ce611f4d7a16943838e950ea4ef7dc3.png',
+          new google.maps.Size(56, 64), // desired size
+          new google.maps.Point(0, 0), // offset within the scaled sprite
+          new google.maps.Point(28, 64), // anchor point is half of the desired size
+          new google.maps.Size(56, 64) // scaled size of the entire sprite
+        )
+      });
+      calc_distance(multiple_markers[29]);
+      separate_markers(multiple_markers[29], 29);
+  }
+
+  var latlng_bounds = new google.maps.LatLngBounds();
+
+  for(i = 0; i < marker_array.length; i++) {
+    latlng_bounds.extend(marker_array[i]);
+  }
+  map.fitBounds(latlng_bounds);
+
+  /********** Separate markers **********/
+  function separate_markers(marker, array_num) {
+    google.maps.event.addListener(marker, 'click', function() {
+      var t = 0;
+      for(i = 0; i < marker_array.length; i++) {
+        if(marker.getPosition().lat() == marker_array[i].lat() && marker.getPosition().lng() == marker_array[i].lng()) {
+          save_to_separate.push(i);
+          t = t + 1;
+        }
+      }
+      if(t > 1) {
+        show_markers_info(save_to_separate);
+      }
+      else {
+        scrolling(marker, array_num);
+      }
+      save_to_separate.length = 0;
+    });
+  }
+
+  function show_markers_info(duplicates) {
+    if($(".marker_list_child") != 0) {
+      $("#opacity_background").css("z-index", "3000");
+      $("#opacity_background").css("height", $("#hospitals_in_map").outerHeight() + 38 + "px");
+      $("#marker_list").css("z-index", "4000");
+      $("#marker_list").css("height", 36 * duplicates.length + "px");
+      $(".marker_list_child").css("z-index", "3020");
+      $("#animation_canvas").css("z-index", "2200");
+      for(i = 0; i < duplicates.length; i++) {
+          if(0 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "포인트약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n01-4c2dcd32017bf971e12368a6bbbe4c03.png);");
+          }
+          if(1 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "신사굿약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n02-31a3746639eaa643ce0b66879700e104.png);");
+          }
+          if(2 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "오렌지약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n03-db6967e84faa2a7fca3ed698e3a55692.png);");
+          }
+          if(3 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "에메랄드약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n04-126f8d9531bd7e973719d480b7739aa2.png);");
+          }
+          if(4 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "코끼리약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n05-6bc708211702753f98f75aa534d013a6.png);");
+          }
+          if(5 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "트리플약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n06-356a9a7442b9f595391bed4fd773d86d.png);");
+          }
+          if(6 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "가나안약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n07-36ea9fdc11aa77d54e761fca0fdb1e01.png);");
+          }
+          if(7 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "강남퍼스트약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n08-d186af8499fc0bf3906ae8ff390caa0f.png);");
+          }
+          if(8 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "에스약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n09-c9a6dcbefbe365cf556f786b6aa87f2f.png);");
+          }
+          if(9 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "신사약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n10-9eaa2f27661dc1cd1c889b03a4f1ade7.png);");
+          }
+          if(10 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "미플러스약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n11-0df4d2c6549e7cdd58685331e8ae5b3b.png);");
+          }
+          if(11 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "신사온누리약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n12-2d244d9696f4494c6552488a4e2db16d.png);");
+          }
+          if(12 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "신사웰약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n13-15931aac925fa7a4ec82e2c7f7f74eea.png);");
+          }
+          if(13 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "타워약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n14-4685079bab2c8e5ed822c8c00d63b36d.png);");
+          }
+          if(14 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "오월애약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n15-bdd6ae7884482e43ff977668f8d29550.png);");
+          }
+          if(15 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "민트약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n16-d60d652a46a3088b957a26d535a5316f.png);");
+          }
+          if(16 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "싱싱온누리약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n17-2831b0201f5632c1d868fb5d01c2fd49.png);");
+          }
+          if(17 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "순수약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n18-23dbb0bc460fd8653d3495f5dbf83264.png);");
+          }
+          if(18 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "신사행복나눔약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n19-5903ace44eaa567048cd687a111a4be9.png);");
+          }
+          if(19 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "메디칼허브약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n20-5bb6a046c12b5ce038f04b83b33743a0.png);");
+          }
+          if(20 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "신사스타약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n21-916ee6d02680c387a71247e80099395d.png);");
+          }
+          if(21 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "바른약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n22-d40d06f563b6a987f14ce118d66c5656.png);");
+          }
+          if(22 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "현온누리약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n23-2c632569d0760d5e684f2294c983f4ea.png);");
+          }
+          if(23 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "준약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n24-3f27be6b44bcda8f7884c2f7349f4f52.png);");
+          }
+          if(24 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "씨케이광생약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n25-2dd363e86f435623afd1f658097c612b.png);");
+          }
+          if(25 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "왕성약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n26-ccea959276c4f140ccda68662ca03725.png);");
+          }
+          if(26 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "한약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n27-f06cb42c221eb59db5667a6ae47fcfe7.png);");
+          }
+          if(27 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "메디팜은강약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n28-bf439fc8c38eb7ab9afd1a6c0b8f68bf.png);");
+          }
+          if(28 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "대영약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n29-991c0e33fac2a411eb1abfa3378bb358.png);");
+          }
+          if(29 == duplicates[i]) {
+            var node = document.createElement("div");
+            node.className = "marker_list_child";
+            var text_name = "반포프라자약국";
+            var text_res;
+            text_res = text_name;
+            var textnode = document.createTextNode("　 " + text_res);
+            node.appendChild(textnode);
+            $("#marker_list").get(0).appendChild(node);
+            $(".marker_list_child").get(i).setAttribute("data-marker", duplicates[i]);
+            $(".marker_list_child").get(i).setAttribute("style", "background-image: url(/assets/mobile/hospitals/n30-6ce611f4d7a16943838e950ea4ef7dc3.png);");
+          }
+      }
+    }
+  }
+
+  /********** Calculate distance **********/
+    marker_to_distance[0] = calc_distance(37.516614, 127.0218397);
+    marker_to_distance[1] = calc_distance(37.5167373, 127.0218982);
+    marker_to_distance[2] = calc_distance(37.5168385, 127.0222575);
+    marker_to_distance[3] = calc_distance(37.51684560390027, 127.0221343504088);
+    marker_to_distance[4] = calc_distance(37.5162899, 127.0210418);
+    marker_to_distance[5] = calc_distance(37.5161902, 127.02065);
+    marker_to_distance[6] = calc_distance(37.5170133, 127.0208658);
+    marker_to_distance[7] = calc_distance(37.5160891, 127.0203608);
+    marker_to_distance[8] = calc_distance(37.51696119400697, 127.02069103447019);
+    marker_to_distance[9] = calc_distance(37.5168705, 127.0205268);
+    marker_to_distance[10] = calc_distance(37.5151999, 127.0203795);
+    marker_to_distance[11] = calc_distance(37.5154236, 127.0201492);
+    marker_to_distance[12] = calc_distance(37.5149825, 127.0203393);
+    marker_to_distance[13] = calc_distance(37.5168631, 127.0201484);
+    marker_to_distance[14] = calc_distance(37.5168571, 127.0198352);
+    marker_to_distance[15] = calc_distance(37.5145482, 127.0204374);
+    marker_to_distance[16] = calc_distance(37.5171451689, 127.019695669);
+    marker_to_distance[17] = calc_distance(37.5173114, 127.0196503);
+    marker_to_distance[18] = calc_distance(37.5157545, 127.0191815);
+    marker_to_distance[19] = calc_distance(37.5166339, 127.0189804);
+    marker_to_distance[20] = calc_distance(37.516807, 127.0188872);
+    marker_to_distance[21] = calc_distance(37.519033, 127.0256588);
+    marker_to_distance[22] = calc_distance(37.5119367, 127.021411);
+    marker_to_distance[23] = calc_distance(37.5122521, 127.024351);
+    marker_to_distance[24] = calc_distance(37.5171153, 127.0167696);
+    marker_to_distance[25] = calc_distance(37.5110167, 127.0227);
+    marker_to_distance[26] = calc_distance(37.5105385, 127.0211584);
+    marker_to_distance[27] = calc_distance(37.5178468, 127.0154737);
+    marker_to_distance[28] = calc_distance(37.5178468, 127.0154737);
+    marker_to_distance[29] = calc_distance(37.5107997, 127.0195344);
+
+  function calc_distance(lat, lng) {
+    var R = 6371000;
+    var d_lat = deg2rad(lat - 37.516034);
+    var d_lng = deg2rad(lng - 127.022124);
+    var a =
+      Math.sin(d_lat / 2) * Math.sin(d_lat / 2) +
+      Math.cos(deg2rad(lat)) * Math.cos(deg2rad(37.516034)) *
+      Math.sin(d_lng / 2) * Math.sin(d_lng / 2);
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    var d = R * c;
+
+    return Math.round(d);
+  }
+
+  function deg2rad(deg) {
+    return deg * (Math.PI / 180);
+  }
+
+  /********** Append Child**********/
+  var elements = $(".distance");
+  for(var i = 0; i < elements.length; i++) {
+    var cre_div = document.createElement("span");
+    cre_div.innerHTML = marker_to_distance[i] + "m";
+    elements[i].appendChild(cre_div);
+  }
+
+  /********** Scrolling function **********/
+  function scrolling(marker, i) {
+    // Set center to selected marker coordinates when click the marker
+    temp_coordinates = marker.getPosition();
+    // map.setCenter(marker.getPosition());
+    for(i = 0; i < marker_array.length; i++) {
+      info_array[i].close();
+      $('.searched_hospital[data-id="' + i + '"]').attr("style", "border-color: white;");
+      if(marker.position == marker_array[i]) {
+        $('.searched_hospital[data-id="' + i + '"]').attr("style", "border-color: #00c0ff;");
+        $('.searched_hospital').parent().removeClass("select-a-hospital");
+        $('.searched_hospital[data-id="' + i + '"]').parent().addClass("select-a-hospital");
+        coordinate = $('.searched_hospital[data-id="' + i + '"]').offset().top - $('.searched_hospital[data-id="0"]').offset().top;
+        scrollTop: $('.search_result').animate({ scrollTop: coordinate}, 0);
+          multiple_markers[0].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n01-4c2dcd32017bf971e12368a6bbbe4c03.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[0].setIcon("/assets/mobile/hospitals/n01-4c2dcd32017bf971e12368a6bbbe4c03.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[0].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[0].getPosition().lng()) {
+            multiple_markers[0].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 0) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b01-49ebab5fa2f7fc14d304b1618c2eda6b.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[1].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n02-31a3746639eaa643ce0b66879700e104.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[1].setIcon("/assets/mobile/hospitals/n02-31a3746639eaa643ce0b66879700e104.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[1].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[1].getPosition().lng()) {
+            multiple_markers[1].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 1) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b02-19385dd05ac18ac851811ee349f9d3bf.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[2].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n03-db6967e84faa2a7fca3ed698e3a55692.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[2].setIcon("/assets/mobile/hospitals/n03-db6967e84faa2a7fca3ed698e3a55692.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[2].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[2].getPosition().lng()) {
+            multiple_markers[2].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 2) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b03-240558298849c069ba0ffa6beebea29f.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[3].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n04-126f8d9531bd7e973719d480b7739aa2.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[3].setIcon("/assets/mobile/hospitals/n04-126f8d9531bd7e973719d480b7739aa2.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[3].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[3].getPosition().lng()) {
+            multiple_markers[3].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 3) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b04-f94bf0badf328a1ae59deb1555ec8e94.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[4].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n05-6bc708211702753f98f75aa534d013a6.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[4].setIcon("/assets/mobile/hospitals/n05-6bc708211702753f98f75aa534d013a6.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[4].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[4].getPosition().lng()) {
+            multiple_markers[4].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 4) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b05-1e34a576578b2fa1dddfb149518f0aea.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[5].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n06-356a9a7442b9f595391bed4fd773d86d.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[5].setIcon("/assets/mobile/hospitals/n06-356a9a7442b9f595391bed4fd773d86d.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[5].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[5].getPosition().lng()) {
+            multiple_markers[5].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 5) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b06-10a70093953a2567c416b10e406e4652.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[6].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n07-36ea9fdc11aa77d54e761fca0fdb1e01.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[6].setIcon("/assets/mobile/hospitals/n07-36ea9fdc11aa77d54e761fca0fdb1e01.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[6].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[6].getPosition().lng()) {
+            multiple_markers[6].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 6) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b07-10e0413ab46139e9da28adf16f2c3d86.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[7].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n08-d186af8499fc0bf3906ae8ff390caa0f.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[7].setIcon("/assets/mobile/hospitals/n08-d186af8499fc0bf3906ae8ff390caa0f.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[7].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[7].getPosition().lng()) {
+            multiple_markers[7].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 7) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b08-22286c8eac2167c63ab3110999a1c5b3.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[8].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n09-c9a6dcbefbe365cf556f786b6aa87f2f.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[8].setIcon("/assets/mobile/hospitals/n09-c9a6dcbefbe365cf556f786b6aa87f2f.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[8].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[8].getPosition().lng()) {
+            multiple_markers[8].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 8) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b09-a1e884bc5a5db7cbdef946253420de85.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[9].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n10-9eaa2f27661dc1cd1c889b03a4f1ade7.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[9].setIcon("/assets/mobile/hospitals/n10-9eaa2f27661dc1cd1c889b03a4f1ade7.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[9].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[9].getPosition().lng()) {
+            multiple_markers[9].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 9) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b10-e60c42d07ae092ff01f2f8ccdad1ab53.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[10].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n11-0df4d2c6549e7cdd58685331e8ae5b3b.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[10].setIcon("/assets/mobile/hospitals/n11-0df4d2c6549e7cdd58685331e8ae5b3b.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[10].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[10].getPosition().lng()) {
+            multiple_markers[10].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 10) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b11-2f1860a05997f76ecf8f46489f2cd2e0.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[11].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n12-2d244d9696f4494c6552488a4e2db16d.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[11].setIcon("/assets/mobile/hospitals/n12-2d244d9696f4494c6552488a4e2db16d.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[11].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[11].getPosition().lng()) {
+            multiple_markers[11].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 11) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b12-3ad14edc61ad240130717fe19a580a94.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[12].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n13-15931aac925fa7a4ec82e2c7f7f74eea.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[12].setIcon("/assets/mobile/hospitals/n13-15931aac925fa7a4ec82e2c7f7f74eea.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[12].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[12].getPosition().lng()) {
+            multiple_markers[12].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 12) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b13-f9f9026935956f515d8d632e3f1e4a4e.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[13].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n14-4685079bab2c8e5ed822c8c00d63b36d.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[13].setIcon("/assets/mobile/hospitals/n14-4685079bab2c8e5ed822c8c00d63b36d.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[13].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[13].getPosition().lng()) {
+            multiple_markers[13].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 13) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b14-e15500801538b285a371fc9f4eadb214.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[14].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n15-bdd6ae7884482e43ff977668f8d29550.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[14].setIcon("/assets/mobile/hospitals/n15-bdd6ae7884482e43ff977668f8d29550.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[14].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[14].getPosition().lng()) {
+            multiple_markers[14].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 14) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b15-64ed846c2b13a4ef12b26c9ba452d275.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[15].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n16-d60d652a46a3088b957a26d535a5316f.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[15].setIcon("/assets/mobile/hospitals/n16-d60d652a46a3088b957a26d535a5316f.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[15].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[15].getPosition().lng()) {
+            multiple_markers[15].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 15) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b16-b801dd28ccc395149ef723dda889770b.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[16].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n17-2831b0201f5632c1d868fb5d01c2fd49.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[16].setIcon("/assets/mobile/hospitals/n17-2831b0201f5632c1d868fb5d01c2fd49.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[16].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[16].getPosition().lng()) {
+            multiple_markers[16].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 16) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b17-dd601b5d80e009cbf4b8cc1eeabb3ba8.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[17].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n18-23dbb0bc460fd8653d3495f5dbf83264.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[17].setIcon("/assets/mobile/hospitals/n18-23dbb0bc460fd8653d3495f5dbf83264.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[17].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[17].getPosition().lng()) {
+            multiple_markers[17].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 17) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b18-5f1c8a8af88b9197f3a576f2712ed668.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[18].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n19-5903ace44eaa567048cd687a111a4be9.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[18].setIcon("/assets/mobile/hospitals/n19-5903ace44eaa567048cd687a111a4be9.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[18].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[18].getPosition().lng()) {
+            multiple_markers[18].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 18) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b19-2b763caebdffcff56e76ad00ae346382.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[19].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n20-5bb6a046c12b5ce038f04b83b33743a0.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[19].setIcon("/assets/mobile/hospitals/n20-5bb6a046c12b5ce038f04b83b33743a0.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[19].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[19].getPosition().lng()) {
+            multiple_markers[19].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 19) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b20-c0f71ace1d9db06d615f79c5bd33f2ea.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[20].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n21-916ee6d02680c387a71247e80099395d.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[20].setIcon("/assets/mobile/hospitals/n21-916ee6d02680c387a71247e80099395d.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[20].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[20].getPosition().lng()) {
+            multiple_markers[20].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 20) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b21-216e2596a78e9cd61f3dc2407ea33c11.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[21].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n22-d40d06f563b6a987f14ce118d66c5656.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[21].setIcon("/assets/mobile/hospitals/n22-d40d06f563b6a987f14ce118d66c5656.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[21].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[21].getPosition().lng()) {
+            multiple_markers[21].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 21) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b22-29a9741d86bbf5cd0425d00e8b1ab864.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[22].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n23-2c632569d0760d5e684f2294c983f4ea.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[22].setIcon("/assets/mobile/hospitals/n23-2c632569d0760d5e684f2294c983f4ea.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[22].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[22].getPosition().lng()) {
+            multiple_markers[22].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 22) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b23-0433889b77c051350b4e0a76784af443.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[23].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n24-3f27be6b44bcda8f7884c2f7349f4f52.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[23].setIcon("/assets/mobile/hospitals/n24-3f27be6b44bcda8f7884c2f7349f4f52.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[23].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[23].getPosition().lng()) {
+            multiple_markers[23].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 23) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b24-37f6c4e56bc837170ac505601d201f0b.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[24].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n25-2dd363e86f435623afd1f658097c612b.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[24].setIcon("/assets/mobile/hospitals/n25-2dd363e86f435623afd1f658097c612b.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[24].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[24].getPosition().lng()) {
+            multiple_markers[24].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 24) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b25-aabef88da289a3124ccc1c3b23e88327.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[25].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n26-ccea959276c4f140ccda68662ca03725.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[25].setIcon("/assets/mobile/hospitals/n26-ccea959276c4f140ccda68662ca03725.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[25].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[25].getPosition().lng()) {
+            multiple_markers[25].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 25) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b26-9e6e62640d0330f2a3a3621f5f348d3c.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[26].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n27-f06cb42c221eb59db5667a6ae47fcfe7.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[26].setIcon("/assets/mobile/hospitals/n27-f06cb42c221eb59db5667a6ae47fcfe7.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[26].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[26].getPosition().lng()) {
+            multiple_markers[26].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 26) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b27-c0625e7af00a78116777f5b6fe299d6c.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[27].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n28-bf439fc8c38eb7ab9afd1a6c0b8f68bf.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[27].setIcon("/assets/mobile/hospitals/n28-bf439fc8c38eb7ab9afd1a6c0b8f68bf.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[27].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[27].getPosition().lng()) {
+            multiple_markers[27].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 27) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b28-1f52523eb94b6b985995d38f4c8cfba3.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[28].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n29-991c0e33fac2a411eb1abfa3378bb358.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[28].setIcon("/assets/mobile/hospitals/n29-991c0e33fac2a411eb1abfa3378bb358.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[28].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[28].getPosition().lng()) {
+            multiple_markers[28].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 28) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b29-eb805ac589e5dcaf1447232aebea1fa0.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+          multiple_markers[29].setIcon(
+            new google.maps.MarkerImage(
+                '/assets/mobile/hospitals/n30-6ce611f4d7a16943838e950ea4ef7dc3.png',
+              new google.maps.Size(56, 64), // desired size
+              new google.maps.Point(0, 0), // offset within the scaled sprite
+              new google.maps.Point(28, 64), // anchor point is half of the desired size
+              new google.maps.Size(56, 64) // scaled size of the entire sprite
+          ));
+            // multiple_markers[29].setIcon("/assets/mobile/hospitals/n30-6ce611f4d7a16943838e950ea4ef7dc3.png");
+          if(multiple_markers[i].getPosition().lat() == multiple_markers[29].getPosition().lat() && multiple_markers[i].getPosition().lng() == multiple_markers[29].getPosition().lng()) {
+            multiple_markers[29].setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/none-1408c00029f92e01396924bec69c2124.png",
+                new google.maps.Size(56,64),
+                new google.maps.Point(0, 0), // anchor point is half of the desired size
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+          }
+          if(i == 29) {
+            marker.setIcon(
+              new google.maps.MarkerImage(
+                "/assets/mobile/hospitals/b30-55f33b9b75af1053c242cfc223817ae2.png",
+                new google.maps.Size(56, 64), // desired size
+                new google.maps.Point(0, 0), // offset within the scaled sprite
+                new google.maps.Point(28, 64), // anchor point is half of the desired size
+                new google.maps.Size(56, 64) // scaled size of the entire sprite
+            ));
+            info_array[i].open(map, marker);
+          }
+      }
+    }
+    marker_click();
+  }
+  function show_map() {
+    code_lat_lng();
+    create_markers();
+    current_position();
+    current_searching_position();
+    moveSlider(1);
+    center = map.getCenter();
+    temp_coordinates = map.getCenter();
+    setTimeout(list_open, 602);
+  }
+
+  function list_open() {
+      list_open = 1;
+      moveSlider(0);
+      $("#animation_canvas").css("pointer-events", "visiblepainted");
+      $("#control_button_on").css("display", "none");
+      $("#control_button_off").css("display", "inline");
+      $("#search_here_text").css("width", "50%");
+      $("#search_here_panel").css("padding-right", "30px");
+      $("input[name='list_open']").val("1");
+      setTimeout(marker_makes_map_small, 600);
+      setTimeout(set_center, 601);
+      if (ie9) { setTimeout($("#animation_canvas").show(), 0); }
+  }
+
+  show_map();
+}
+
+function loadScript() {
+  if($("#map_canvas").length > 0) {
+    google.maps.event.addDomListener(window, 'load', initialize);
+  }
+}
+
+// DomReady Mozilla, Opera, Webkit
+if (document.addEventListener) {
+  document.addEventListener("DOMContentLoaded", function () {
+    document.removeEventListener("DOMContentLoaded", arguments.callee, false);
+    domReady();
+  }, false);
+}
+
+// DomReady Internet Explorer
+else if (document.attachEvent) {
+  document.attachEvent("onreadystatechange", function () {
+    if (document.readyState === "complete") {
+      document.detachEvent("onreadystatechange", arguments.callee);
+      domReady();
+    }
+  });
+}
+
+/********** Set window's size when window on load **********/
+function domReady () {
+  loadScript();
+}
+
+
+
+function info_window_click(hospital) {
+  ga("send", "event", "상황별 병원찾기", "Button Press", "병원 리스트 클릭_지도뷰");
+  var url_all = window.location.href;
+  var url_branch = window.location.pathname + window.location.search.substring(0);
+  var url = url_all.substring(0, (url_all.length - url_branch.length));
+  var params = window.location.search.substring(1);
+  if(params.length != 0) {
+    url = url + "/hospitals/" + hospital + "?" + params;
+  }
+  else {
+    url = url + "/hospitals/" + hospital;
+  }
+  location.href = url;
+}
+</script>
+
+<div id="body_container" class="hospital_index_body_container" style="padding: 0;">
+  <div id="hospitals_in_map" class="hospitals_in_map" style="height: 450px;">
+    <div id="map_canvas">
+    </div>
+    <div id="search_here_panel" class="search_here_panel">
+      <div id="search_here_text" class="search_here_text">현 지도에서 찾기</div>
+    </div>
+    <div class="control_panel">
+      <div id="control_button_on" class="control_button">
+        <label>목록</label>
+      </div>
+      <div id="control_button_off" class="control_button">
+        <label>지도</label>
+      </div>
+    </div>
+    <div class="my_place_button" style="display: none;">
+      <img alt="Icn direction" height="30" src="/assets/mobile/hospitals/icn_direction-dee6707c12125b182fe94cca7ed2898e.png" width="30" />
+    </div>
+    <div id="animation_canvas" class="animation_canvas">
+      <div id="slider_panel" class="slider_panel">
+        <div id="hospitals_list" class="hospitals_list">
+          <div class="search_result" align=center>
+              <a class="a_hospital" data-hid="196505" href="/hospitals/196505">
+                <div class="searched_hospital" data-id="0">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        포인트약국
+                      </div>
+                      <div class="num">
+                        01
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:00 - 21:30
+                  </div>
+</a>              <a class="a_hospital" data-hid="189622" href="/hospitals/189622">
+                <div class="searched_hospital" data-id="1">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        신사굿약국
+                      </div>
+                      <div class="num">
+                        02
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 8b673f069545a8a3fd" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43384/hospital_image_8b673f069545a8a3fd.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    10:00 - 22:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="191216" href="/hospitals/191216">
+                <div class="searched_hospital" data-id="2">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        오렌지약국
+                      </div>
+                      <div class="num">
+                        03
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 024aeab046cfc5409f" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43364/hospital_image_024aeab046cfc5409f.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    10:00 - 21:30
+                  </div>
+</a>              <a class="a_hospital" data-hid="203654" href="/hospitals/203654">
+                <div class="searched_hospital" data-id="3">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        에메랄드약국
+                      </div>
+                      <div class="num">
+                        04
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 5c7cb98a5f7ca12d43" src="http://www.goodoc.co.kr/uploads/hospital_image/file/62289/hospital_image_5c7cb98a5f7ca12d43.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:00 - 22:30
+                  </div>
+</a>              <a class="a_hospital" data-hid="195734" href="/hospitals/195734">
+                <div class="searched_hospital" data-id="4">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        코끼리약국
+                      </div>
+                      <div class="num">
+                        05
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 33b77eb293b62fb7c7" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43660/hospital_image_33b77eb293b62fb7c7.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:00 - 19:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="196171" href="/hospitals/196171">
+                <div class="searched_hospital" data-id="5">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        트리플약국
+                      </div>
+                      <div class="num">
+                        06
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    10:00 - 21:30
+                  </div>
+</a>              <a class="a_hospital" data-hid="179630" href="/hospitals/179630">
+                <div class="searched_hospital" data-id="6">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        가나안약국
+                      </div>
+                      <div class="num">
+                        07
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image b751f459bd59b7ddab" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43361/hospital_image_b751f459bd59b7ddab.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    08:30 - 22:15
+                  </div>
+</a>              <a class="a_hospital" data-hid="179811" href="/hospitals/179811">
+                <div class="searched_hospital" data-id="7">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        강남퍼스트약국
+                      </div>
+                      <div class="num">
+                        08
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 598325b32b6a4fe695" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43659/hospital_image_598325b32b6a4fe695.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    10:00 - 21:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="227604" href="/hospitals/227604">
+                <div class="searched_hospital" data-id="8">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        에스약국
+                      </div>
+                      <div class="num">
+                        09
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:00 - 19:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="189626" href="/hospitals/189626">
+                <div class="searched_hospital" data-id="9">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        신사약국
+                      </div>
+                      <div class="num">
+                        10
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 6f0f8e70bc0cceedde" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43362/hospital_image_6f0f8e70bc0cceedde.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:00 - 22:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="185116" href="/hospitals/185116">
+                <div class="searched_hospital" data-id="10">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        미플러스약국
+                      </div>
+                      <div class="num">
+                        11
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 강남대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image ced5a5de2d595c6aca" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43658/hospital_image_ced5a5de2d595c6aca.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    10:00 - 21:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="189627" href="/hospitals/189627">
+                <div class="searched_hospital" data-id="11">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        신사온누리약국
+                      </div>
+                      <div class="num">
+                        12
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 강남대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image ad1c73d5b5693716f2" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43365/hospital_image_ad1c73d5b5693716f2.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:30 - 23:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="220615" href="/hospitals/220615">
+                <div class="searched_hospital" data-id="12">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        신사웰약국
+                      </div>
+                      <div class="num">
+                        13
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 강남대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:30 - 21:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="223321" href="/hospitals/223321">
+                <div class="searched_hospital" data-id="13">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        타워약국
+                      </div>
+                      <div class="num">
+                        14
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                  </div>
+                </div>
+</a>              <a class="a_hospital" data-hid="191275" href="/hospitals/191275">
+                <div class="searched_hospital" data-id="14">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        오월애약국
+                      </div>
+                      <div class="num">
+                        15
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 강남대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 2a7a3c752066d80427" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43381/hospital_image_2a7a3c752066d80427.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:30 - 20:30
+                  </div>
+</a>              <a class="a_hospital" data-hid="223328" href="/hospitals/223328">
+                <div class="searched_hospital" data-id="15">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        민트약국
+                      </div>
+                      <div class="num">
+                        16
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 강남대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                  </div>
+                </div>
+</a>              <a class="a_hospital" data-hid="219658" href="/hospitals/219658">
+                <div class="searched_hospital" data-id="16">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        싱싱온누리약국
+                      </div>
+                      <div class="num">
+                        17
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 강남대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:30 - 21:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="223500" href="/hospitals/223500">
+                <div class="searched_hospital" data-id="17">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        순수약국
+                      </div>
+                      <div class="num">
+                        18
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 강남대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                  </div>
+                </div>
+</a>              <a class="a_hospital" data-hid="200426" href="/hospitals/200426">
+                <div class="searched_hospital" data-id="18">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        신사행복나눔약국
+                      </div>
+                      <div class="num">
+                        19
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">서초구 강남대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 581122e8c815428ce8" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43363/hospital_image_581122e8c815428ce8.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                  </div>
+                </div>
+</a>              <a class="a_hospital" data-hid="184083" href="/hospitals/184083">
+                <div class="searched_hospital" data-id="19">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        메디칼허브약국
+                      </div>
+                      <div class="num">
+                        20
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">서초구 강남대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 6998e9ab41062c5c45" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43709/hospital_image_6998e9ab41062c5c45.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:30 - 19:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="223748" href="/hospitals/223748">
+                <div class="searched_hospital" data-id="20">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        신사스타약국
+                      </div>
+                      <div class="num">
+                        21
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">서초구 강남대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:00 - 21:30
+                  </div>
+</a>              <a class="a_hospital" data-hid="223760" href="/hospitals/223760">
+                <div class="searched_hospital" data-id="21">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        바른약국
+                      </div>
+                      <div class="num">
+                        22
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 도산대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                  </div>
+                </div>
+</a>              <a class="a_hospital" data-hid="198278" href="/hospitals/198278">
+                <div class="searched_hospital" data-id="22">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        현온누리약국
+                      </div>
+                      <div class="num">
+                        23
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 강남대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 6f5fac37c7bcb23130" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43657/hospital_image_6f5fac37c7bcb23130.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:00 - 18:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="194643" href="/hospitals/194643">
+                <div class="searched_hospital" data-id="23">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        준약국
+                      </div>
+                      <div class="num">
+                        24
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 학동로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:00 - 18:30
+                  </div>
+</a>              <a class="a_hospital" data-hid="226865" href="/hospitals/226865">
+                <div class="searched_hospital" data-id="24">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        씨케이광생약국
+                      </div>
+                      <div class="num">
+                        25
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">서초구 강남대로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:00 - 21:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="191734" href="/hospitals/191734">
+                <div class="searched_hospital" data-id="25">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        왕성약국
+                      </div>
+                      <div class="num">
+                        26
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">강남구 학동로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 34dda75195209be7c2" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43706/hospital_image_34dda75195209be7c2.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:00 - 23:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="197578" href="/hospitals/197578">
+                <div class="searched_hospital" data-id="26">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        한약국
+                      </div>
+                      <div class="num">
+                        27
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">서초구 강남대로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image d5a0b2be6a6e85aa5e" src="http://www.goodoc.co.kr/uploads/hospital_image/file/45058/hospital_image_d5a0b2be6a6e85aa5e.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    09:00 - 21:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="184272" href="/hospitals/184272">
+                <div class="searched_hospital" data-id="27">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        메디팜은강약국
+                      </div>
+                      <div class="num">
+                        28
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">서초구 잠원로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:30 - 22:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="182527" href="/hospitals/182527">
+                <div class="searched_hospital" data-id="28">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        대영약국
+                      </div>
+                      <div class="num">
+                        29
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">서초구 잠원로</div>
+                    </div>
+                  </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                      <hr class="hospital-desc-line" />
+                  <div class="hospital-mini-desc">
+                    09:00 - 21:00
+                  </div>
+</a>              <a class="a_hospital" data-hid="185366" href="/hospitals/185366">
+                <div class="searched_hospital" data-id="29">
+                  <div class="basic_info">
+                    <div class="hospital-title">
+                      <div class="hospital_name">
+                        반포프라자약국
+                      </div>
+                      <div class="num">
+                        30
+                      </div>
+                    </div>
+                    <div class="location">
+                      <img alt="List ic pin" src="/assets/mobile/hospitals_show/list_ic_pin-a49aeb612c47e3c858a159d47716c887.png" />
+                      <div class="distance"></div>
+                      &nbsp;|&nbsp;
+                      <div class="address">서초구 신반포로</div>
+                    </div>
+                  </div>
+                      <div class="picture_frame">
+                        <img alt="Hospital image 65c9cabd49043ca328" src="http://www.goodoc.co.kr/uploads/hospital_image/file/43378/hospital_image_65c9cabd49043ca328.jpg?w=400" />
+                      </div>
+                  <div class="extended_info">
+                      <div class="status">
+                      </div>
+                  </div>
+                </div>
+                  <div class="hospital-mini-desc">
+                    08:30 - 22:30
+                  </div>
+</a>          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="marker_list" onclick="void(0);"></div>
+  <div id="opacity_background" onclick="void(0);"></div>
+</div>
+
+
+
+    
+<div id="footer_container" style="position: relative;">
+  <div class="goodoc_info">
+    <img alt="Top logo" class="btn_home" src="/assets/mobile/header/top_logo-5cfe413ec4048bd5c0c9eb7ae18d6883.png" />
+    <div class="links">
+      <a class="no-action" href="https://www.facebook.com/hospitalmoa?fref=ts" onClick="window.open(this.href); return false;"><img alt="Facebook" class="sns_link" height="40" src="/assets/facebook-720195664b803fa8386be6b1cb5d0f2b.png" width="40" /></a>
+      <a class="no-action" href="https://twitter.com/goodockr" onClick="window.open(this.href); return false;"><img alt="Twitter" class="sns_link" height="40" src="/assets/twitter-6f62c83a9d6c4e98eb4773bca65499fa.png" width="40" /></a>
+      <a class="no-action" href="http://blog.naver.com/goodockorea" onClick="window.open(this.href); return false;"><img alt="Blog" class="sns_link" height="40" src="/assets/blog-d975fe060c4aed08b5ba608b4154e509.png" width="40" /></a>
+      <a class="no-action" href="https://www.instagram.com/goodoc" onClick="window.open(this.href); return false;"><img alt="Insta" class="sns_link" height="40" src="/assets/insta-c7e4afad120f146062aa0c7c2fc93fe3.png" width="40" /></a>
+    </div>
+    <a class="enter-link" href="/contacts/new">
+      <div class="enter-goodoc">병원 무료입점 신청</div>
+</a>  </div>
+
+  <div class="info">
+
+    <span class="company-info">상호: 주식회사 케어랩스</span>
+    <span class="company-info">사업자등록번호: 220-88-36643</span>
+    <span class="company-info">대표자: 김동수, 박경득</span>
+    <span class="company-info">서울특별시 강남구 역삼로3길 13, 케어랩스타워 2~3층</span>
+    <span class="company-info">통신판매업신고: 제2011-서울강남-00557</span>
+    <span class="company-info">굿닥 사업 대표: 박경득</span>
+    <span class="company-info">ALL RIGHT RESERVED. &copy;goodoc</span>
+    <span class="company-info">
+      고객센터 : 
+      <a href="mailto:gdcs@goodoc.co.kr" style="color: ##6d7273;">
+        gdcs@goodoc.co.kr
+</a>    </span>
+    <span class="company-info">
+      광고/마케팅 문의 : 
+      <a href="mailto:partner@goodoc.co.kr" style="color: ##6d7273;">
+        partner@goodoc.co.kr
+</a>    </span>
+    <span class="company-info">굿닥 전화번호 : 02-501-6245</span>
+    <div class="footer-term">
+      <a href="/main/term">이용약관</a>
+      <span>&nbsp;및&nbsp;</span>
+      <a href="/main/term2">개인정보취급방침</a>
+    </div>
+  </div>
+
+</div>
+
+      <script defer type="text/javascript" src="https://asset.goodoc.kr/coffee/goodoc_application/goodoc_application.min.js"></script>
+      <link href="https://asset.goodoc.kr/coffee/goodoc_application/goodoc_application.min.css" rel="stylesheet">
+  </div>
+  
+
+</body>
+</html>
